@@ -1,0 +1,69 @@
+
+.topcontainer{
+display: grid;
+grid-template-rows: auto auto auto ;
+grid-template-columns: 1fr 2fr 1fr;
+}
+.dag{
+    grid-row-start:2 ;
+    grid-row-end:3;
+
+}
+
+.trx{
+grid-column-start: 3;
+grid-row-start:2 ;
+
+}
+.ilkkonteyniryazilar{
+grid-column-start: 2;
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+justify-content:center;
+height: 25vh;
+align-items: center;
+margin-top: 100px;
+
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+ text-align: center;
+}
+h2{
+     font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+   text-align: center;
+
+}
+.tumsayfa{
+    height: 100vh;
+ 
+
+     background-color: #1B3C53;
+}
+
+.ortakonteynir{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    background-color:#94B4C1
+  
+}
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* yatay ortalama */
+  text-align: center;  /* yazıları ortala */
+}
+.sonkonteynir{
+    background-color: #EAE0CF;
+}
